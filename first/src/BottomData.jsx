@@ -1,10 +1,17 @@
-const BottomeData=()=>{
+// const BottomeData=()=>{
       
- return(
-    <>
-    <h1 >BottomData</h1>
+//  return(
+//     <>
+//     <h1 >BottomData</h1>
    
-    </>
-  )
+//     </>
+//   )
+// }
+// export default BottomData;
+
+const Empdata=()=>{
+
+name
+
+
 }
-export default BottomData;
