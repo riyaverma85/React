@@ -1,24 +1,24 @@
 const productData=[
     {
-    "productno":1,
-    "name":"glass",
-"color":"red"
+    "sn.no":1,
+    " resepice":"glass",
+"price":100
 },
 {
-    "productno":2,
-    "name":"bottle",
-"length":"50"
+    "sn.no":2,
+    " resepice":"bottle",
+"price":50
 },
 {
-    "productno":3,
-    "name":"cape",
-"city":"black"
+    "sn.no":3,
+    " resepice":"cape",
+"price":200
 }
 ,
 {
-    "productno":4,
-    "name":"fain",
-"city":"bhopal"
+    "sn.no":4,
+    " resepice":"fain",
+"price":150
 }
 ]
 export default productData;

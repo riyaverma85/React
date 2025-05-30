@@ -200,26 +200,25 @@
 //   )
 // }
 // export default App;
-import EmpDesign from "./Empdesign"
+import EmpDesign from "./EmpDesign"
 import productData from "./productData"
 const App =()=>{
   const ans=productData.map((key)=> <EmpDesign
-    eno={key.Enpno}
-    nm={key.name}
-    dep1={key.department}
+    eno={key.snno}
+    nm={key.resepice}
+    dep1={key.price}
     />)
     return(
       <>
-      <h1 style={{color:"red"} }>welcome</h1>
+      <h1 style={{color:"red"} }>Suprabhat</h1>
       <table border="1" width="500px" hight="300vh">
       <tr>
-      <th> productno</th>
-      <th> name </th>
-      <th> city </th>
+      <th> sn no </th>
+      <th> resepice </th>
+      <th> price </th>
       </tr>{ans}</table>
       </>
     
     )
 }
-
 export default App;
