@@ -15,7 +15,7 @@
 // // }
 // // export default App;
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 
 
 
@@ -225,14 +225,19 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 // }
 // export default App;
 
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./layout";
 const App=()=>{
     return(
         <>
         <BrowserRouter>
         <Routes>
-            <Route>
-                
+            <Route path="/"element={<Layout/>}>
+               <Route index element={<Home/>}/> 
+               <Route path="home" element={<Home/>}/>
+               <Route path="about" element={<About/>}/>
+               <Route path="join" element={<Home/>}/>
+               <Route path="contect" element={<Contect/>}/>
             </Route>
         </Routes>
         </BrowserRouter>
