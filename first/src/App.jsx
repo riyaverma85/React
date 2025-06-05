@@ -224,21 +224,36 @@
 //     )
 // }
 // export default App;
-
-import {useState} from "react";
+/////////////////////////////////////////alret///////////////////////////////////////
 const App=()=>{
-  const [color,setColor]=useState("red")
+ function Display(){
+  alert("welcome")
+ }
+
   return(
     <>
-    <h1>Welcome to react App </h1>
-    <button onClick={()=>{setColor("yellow")}}>Change color</button>
-    <button onClick={()=>{setColor("blue")}}>Change color</button>
-    <button onClick={()=>{setColor("green")}}>Change color</button>
+    <h1>i am riya </h1>
+    <button onClick={Display}>click</button>
 
-
-    <h2 style={{color:color}}>My Favorite Color :{color}</h2>
     </>
   )
 }
 export default App;
+////////////////////////////////three button color change/////////////////////////////////////////
+// import {useState} from "react";
+// const App=()=>{
+//   const [color,setColor]=useState("red")
+//   return(
+//     <>
+//     <h1>Welcome to react App </h1>
+//     <button onClick={()=>{setColor("yellow")}}>Change color</button>
+//     <button onClick={()=>{setColor("blue")}}>Change color</button>
+//     <button onClick={()=>{setColor("green")}}>Change color</button>
+
+
+//     <h2 style={{color:color}}>My Favorite Color :{color}</h2>
+//     </>
+//   )
+// }
+// export default App;
 
