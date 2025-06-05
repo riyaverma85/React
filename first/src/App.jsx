@@ -224,21 +224,24 @@
 //     )
 // }
 // export default App;
+
+
 /////////////////////////////////////////alret///////////////////////////////////////
-const App=()=>{
- function Display(){
-  alert("welcome")
- }
+// const App=()=>{
+//  function Display(){
+//   alert("welcome")
+//  }
 
-  return(
-    <>
-    <h1>i am riya </h1>
-    <button onClick={Display}>click</button>
+//   return(
+//     <>
+//     <h1>i am riya </h1>
+//     <button onClick={Display}>click</button>
 
-    </>
-  )
-}
-export default App;
+//     </>
+//   )
+// }
+// export default App;
+
 ////////////////////////////////three button color change/////////////////////////////////////////
 // import {useState} from "react";
 // const App=()=>{
